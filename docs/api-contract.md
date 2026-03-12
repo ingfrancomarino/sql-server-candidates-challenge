@@ -25,7 +25,7 @@ Retrieves the next pending sync task from the queue.
   "taskId": "01JQFG8N3XRTV5KHW2YP4M7B6C",
   "taskType": "GetCustomers",
   "parameters": {
-    "modifiedSince": "2026-01-01T00:00:00Z"
+    "modifiedSince": "2025-01-01T00:00:00Z"
   },
   "createdAt": "2026-03-12T10:30:00Z"
 }

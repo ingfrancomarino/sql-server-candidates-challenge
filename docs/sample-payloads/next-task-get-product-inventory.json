@@ -2,7 +2,7 @@
   "taskId": "01JQFGCR5HKNW8PE3YMZQ6VB4T",
   "taskType": "GetProductInventory",
   "parameters": {
-    "modifiedSince": "2026-01-01T00:00:00Z"
+    "modifiedSince": "2025-01-01T00:00:00Z"
   },
   "createdAt": "2026-03-12T10:33:00Z"
 }

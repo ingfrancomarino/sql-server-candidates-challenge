@@ -1,0 +1,35 @@
+{
+  "taskId": "01JQFG8N3XRTV5KHW2YP4M7B6C",
+  "taskType": "GetCustomers",
+  "status": "completed",
+  "data": [
+    {
+      "customerId": 11000,
+      "accountNumber": "AW00011000",
+      "firstName": "Jon",
+      "lastName": "Yang",
+      "emailAddress": "jon24@adventure-works.com",
+      "phone": "1 (11) 500 555-0162",
+      "addressLine1": "3761 N. 14th St",
+      "city": "Rockhampton",
+      "stateProvince": "Queensland",
+      "postalCode": "4700",
+      "countryRegion": "Australia"
+    },
+    {
+      "customerId": 11001,
+      "accountNumber": "AW00011001",
+      "firstName": "Eugene",
+      "lastName": "Huang",
+      "emailAddress": "eugene10@adventure-works.com",
+      "phone": "1 (11) 500 555-0110",
+      "addressLine1": "2243 W St.",
+      "city": "Seaford",
+      "stateProvince": "Victoria",
+      "postalCode": "3198",
+      "countryRegion": "Australia"
+    }
+  ],
+  "recordCount": 2,
+  "executedAt": "2026-03-12T10:30:05Z"
+}

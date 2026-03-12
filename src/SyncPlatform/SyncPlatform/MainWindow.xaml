@@ -1,0 +1,66 @@
+<Window x:Class="SyncPlatform.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SyncPlatform — Test Server" Height="600" Width="850"
+        WindowStartupLocation="CenterScreen">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,12">
+            <TextBlock Text="SyncPlatform Test Server" FontSize="20" FontWeight="Bold"/>
+            <TextBlock x:Name="StatusText" Text="Starting..." Foreground="Gray" FontSize="13" Margin="0,4,0,0"/>
+        </StackPanel>
+
+        <!-- API Info -->
+        <Border Grid.Row="1" Background="#F5F5F5" CornerRadius="4" Padding="12" Margin="0,0,0,12">
+            <StackPanel>
+                <TextBlock FontSize="12" Foreground="#555">
+                    <Run FontWeight="Bold">Endpoint:</Run>
+                    <Run Text="http://localhost:5100"/>
+                </TextBlock>
+                <TextBlock FontSize="12" Foreground="#555" Margin="0,4,0,0">
+                    <Run FontWeight="Bold">API Key Header:</Run>
+                    <Run Text="X-Api-Key: candidate-test-key-2026"/>
+                </TextBlock>
+            </StackPanel>
+        </Border>
+
+        <!-- Buttons -->
+        <GroupBox Grid.Row="2" Header="Enqueue Sync Tasks" Margin="0,0,0,12" Padding="8">
+            <WrapPanel>
+                <Button x:Name="BtnCustomers" Content="Sync Customers"
+                        Click="BtnCustomers_Click" Padding="16,8" Margin="4" MinWidth="140"/>
+                <Button x:Name="BtnProducts" Content="Sync Products"
+                        Click="BtnProducts_Click" Padding="16,8" Margin="4" MinWidth="140"/>
+                <Button x:Name="BtnOrders" Content="Sync Orders"
+                        Click="BtnOrders_Click" Padding="16,8" Margin="4" MinWidth="140"/>
+                <Button x:Name="BtnInventory" Content="Sync Inventory"
+                        Click="BtnInventory_Click" Padding="16,8" Margin="4" MinWidth="140"/>
+            </WrapPanel>
+        </GroupBox>
+
+        <!-- Log -->
+        <TextBox Grid.Row="3" x:Name="LogTextBox"
+                 IsReadOnly="True"
+                 VerticalScrollBarVisibility="Auto"
+                 HorizontalScrollBarVisibility="Auto"
+                 TextWrapping="Wrap"
+                 FontFamily="Consolas" FontSize="12"
+                 Background="#1E1E1E" Foreground="#D4D4D4"
+                 Padding="8"/>
+
+        <!-- Footer -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,8,0,0">
+            <TextBlock Text="{Binding ElementName=LogTextBox, Path=LineCount}"
+                       Foreground="Gray" FontSize="11" VerticalAlignment="Center" Margin="0,0,12,0"/>
+            <Button x:Name="BtnClearLog" Content="Clear Log" Click="BtnClearLog_Click" Padding="12,6"/>
+        </StackPanel>
+    </Grid>
+</Window>

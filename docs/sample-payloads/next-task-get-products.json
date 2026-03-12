@@ -1,0 +1,8 @@
+{
+  "taskId": "01JQFG9A7BMPQ3ND6XWZR1E8HY",
+  "taskType": "GetProducts",
+  "parameters": {
+    "modifiedSince": "2026-01-01T00:00:00Z"
+  },
+  "createdAt": "2026-03-12T10:31:00Z"
+}

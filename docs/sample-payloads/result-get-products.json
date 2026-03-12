@@ -1,0 +1,31 @@
+{
+  "taskId": "01JQFG9A7BMPQ3ND6XWZR1E8HY",
+  "taskType": "GetProducts",
+  "status": "completed",
+  "data": [
+    {
+      "productId": 680,
+      "name": "HL Road Frame - Black, 58",
+      "productNumber": "FR-R92B-58",
+      "color": "Black",
+      "standardCost": 1059.31,
+      "listPrice": 1431.50,
+      "category": "Components",
+      "subcategory": "Road Frames",
+      "modifiedDate": "2025-02-07T10:01:36.827Z"
+    },
+    {
+      "productId": 706,
+      "name": "HL Road Frame - Red, 58",
+      "productNumber": "FR-R92R-58",
+      "color": "Red",
+      "standardCost": 1059.31,
+      "listPrice": 1431.50,
+      "category": "Components",
+      "subcategory": "Road Frames",
+      "modifiedDate": "2025-02-07T10:01:36.827Z"
+    }
+  ],
+  "recordCount": 2,
+  "executedAt": "2026-03-12T10:31:05Z"
+}

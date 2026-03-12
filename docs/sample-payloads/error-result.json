@@ -1,0 +1,9 @@
+{
+  "taskId": "01JQFG8N3XRTV5KHW2YP4M7B6C",
+  "taskType": "GetCustomers",
+  "status": "failed",
+  "data": null,
+  "recordCount": 0,
+  "executedAt": "2026-03-12T10:30:05Z",
+  "errorMessage": "Connection to database failed: timeout after 30 seconds"
+}

@@ -1,0 +1,29 @@
+{
+  "taskId": "01JQFGCR5HKNW8PE3YMZQ6VB4T",
+  "taskType": "GetProductInventory",
+  "status": "completed",
+  "data": [
+    {
+      "productId": 1,
+      "productName": "Adjustable Race",
+      "productNumber": "AR-5381",
+      "locationName": "Tool Crib",
+      "shelf": "A",
+      "bin": 1,
+      "quantity": 408,
+      "modifiedDate": "2025-08-07T00:00:00Z"
+    },
+    {
+      "productId": 2,
+      "productName": "Bearing Ball",
+      "productNumber": "BA-8327",
+      "locationName": "Tool Crib",
+      "shelf": "A",
+      "bin": 2,
+      "quantity": 427,
+      "modifiedDate": "2025-08-07T00:00:00Z"
+    }
+  ],
+  "recordCount": 2,
+  "executedAt": "2026-03-12T10:33:05Z"
+}

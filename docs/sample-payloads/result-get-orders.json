@@ -1,0 +1,40 @@
+{
+  "taskId": "01JQFGBK2FCST9QA4VXJR7D5NW",
+  "taskType": "GetOrders",
+  "status": "completed",
+  "data": [
+    {
+      "salesOrderId": 43659,
+      "orderDate": "2022-05-30T00:00:00Z",
+      "status": 5,
+      "customerName": "James Hendergart",
+      "accountNumber": "AW00029825",
+      "totalDue": 23153.2339,
+      "orderDetails": [
+        {
+          "productName": "Mountain-100 Black, 42",
+          "productNumber": "BK-M82B-42",
+          "unitPrice": 2024.994,
+          "quantity": 1,
+          "lineTotal": 2024.994
+        },
+        {
+          "productName": "Mountain-100 Black, 44",
+          "productNumber": "BK-M82B-44",
+          "unitPrice": 2024.994,
+          "quantity": 3,
+          "lineTotal": 6074.982
+        },
+        {
+          "productName": "Sport-100 Helmet, Blue",
+          "productNumber": "HL-U509-B",
+          "unitPrice": 20.1865,
+          "quantity": 4,
+          "lineTotal": 80.746
+        }
+      ]
+    }
+  ],
+  "recordCount": 1,
+  "executedAt": "2026-03-12T10:32:05Z"
+}

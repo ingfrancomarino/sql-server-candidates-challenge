@@ -37,7 +37,7 @@ public class Worker : BackgroundService
         }
     }
 
-    private async Task PollOnceAsync(CancellationToken cancellationToken)
+    internal async Task PollOnceAsync(CancellationToken cancellationToken)
     {
         SyncTask? task = null;
         try

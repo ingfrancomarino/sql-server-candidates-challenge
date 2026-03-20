@@ -61,3 +61,6 @@ $RECYCLE.BIN/
 ## User-specific
 *.DotSettings.user
 context.md
+
+## Local config overrides (contain environment-specific connection strings)
+appsettings.Development.json
